@@ -14,7 +14,7 @@ import tink.priority.Selector;
 #end
 
 
-typedef Plugin = Callback<ClassBuilder>;
+typedef Plugin = tink.core.Callback<ClassBuilder>;
 
 class Sugar {
 
